@@ -1,0 +1,280 @@
+@media screen and (min-width: 768px) {
+
+  .sp {
+    display: none;
+  }
+
+  .br_sp {
+    display: none;
+  }
+
+}
+
+@media screen and (max-width: 767px) {
+
+  .pc {
+    display: none;
+  }
+
+  .container {
+    padding: 0 20px;
+    max-width: 767px;
+    margin: 0 auto;
+  }
+
+
+  .header_logo{
+    position: absolute;
+    top: 0;
+    z-index: 1000;
+  }
+
+  .header_logo img{
+    width: 14rem;
+  }
+  .ta_center_pc {
+    
+  }
+
+  .mr20_pc {
+    margin-right: 0;
+  }
+	.slider p{
+	position: absolute;
+	top: 50%;
+    left: 0;
+    right: 0;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
+	
+    margin: auto;
+    text-align: center;
+	color: #ffa34d;
+	font-size: 2.1rem;
+	line-height: 3rem;
+    z-index: 100;
+	text-shadow: 0px 0px 1px #eee;
+}
+
+  .list_h {
+    font-weight: 600;
+    color: #fff;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+    margin-bottom: 10px;
+  }
+
+  .list_d {
+    color: #bfbfbf;
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+    font-weight: 500;
+  }
+
+  .mt20_sp {
+    margin-top: 20px;
+  }
+
+  .btn {
+    width: 100%;
+  }
+
+  .top_news, .top_info {
+    padding: 60px 0;
+  }
+
+  .top_gallery {
+    padding-top: 60px;
+  }
+
+  .top_concept {
+    padding: 60px 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .top_menu {
+    padding: 0px 0;
+  }
+
+  .top_course {
+    padding: 60px 0;
+    background-image: url(../img/sp_top_bg002.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+  }
+
+  .top_menu_img01_flex {
+    display: -ms-flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+
+  .top_menu_img02_flex {
+    display: -ms-flex;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+
+  .top_course_inner{
+    flex-direction: column;
+  }
+  .top_stuff{
+    padding: 0 4rem 2rem;
+    text-align: center;
+
+}
+
+
+  .heading1 {
+    font-size: 3rem;
+    letter-spacing: 0.4rem;
+  }
+
+  .heading2 {
+    font-size: 2.4rem;
+    letter-spacing: 0.4rem;
+  }
+
+  #page-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+  }
+
+  #page-top a {
+    font-family: "Playfair Display";
+    line-height: 55px;
+    text-align: center;
+    font-size: 1.4rem;
+    font-weight: 600;
+    letter-spacing: 0.2rem;
+    color: #0a0a0a;
+    display: block;
+    width: 50px;
+    height: 50px;
+    text-decoration: none;
+    border-radius: 50%;
+    border: solid 2px #0a0a0a;
+    background: rgba(255,255,255,0.8);
+  }
+
+  #page-top a::before {
+    content: "";
+    width: 4px;
+    height: 4px;
+    border-top: solid 2px #0a0a0a;
+    border-right: solid 2px #0a0a0a;
+    -webkit-transform: rotate(-45deg);
+            transform: rotate(-45deg);
+    position: absolute;
+    top: 8px;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+  }
+
+  .google_translate {
+    position: absolute;
+    top: 20px;
+    right: 80px;
+    z-index: 100;
+  }
+
+  .footer_link_list {
+    display: block;
+  }
+
+  .footer_link_menu {
+    margin-right: 0;
+    margin-bottom: 40px;
+  }
+
+  .footer_link_menu:last-child {
+    margin-bottom: 0;
+  }
+
+  .lawer_wrap {
+    padding: 60px 0;
+  }
+
+  .table_item_left {
+    flex: 0 0 60%;
+  }
+
+  .table_item_right {
+    flex: 0 0 35%;
+  }
+
+  .gallery_content_sec_item {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 50%;
+            flex: 0 0 50%;
+    max-width: 100%;
+    position: relative;
+    overflow: hidden;
+    padding-top: 50%;
+  }
+
+  .top_info_content_left, .top_info_content_right {
+    -webkit-box-flex: 0;
+        -ms-flex: 0 0 100%;
+            flex: 0 0 100%;
+    padding: 0 10px;
+  }
+
+  .top_info_content_right {
+    margin-top: 20px;
+  }
+	.table_image img{
+   width: 100%;
+}
+	.flexbox{
+	display: flex;
+	align-items: center;
+  justify-content: center;
+  padding: 2rem;
+}
+	.flexbox p{
+		margin-bottom: 30px
+	}
+
+.flexr{
+width: 100%;
+	padding-right: 0px
+}
+.flexr img{
+width: 100%;
+}
+.flexl{
+width: 100%;
+	padding-left: 0px
+}
+.flexl img{
+width: 100%;
+}
+	.tel_link{
+	color: #0a0a0a;
+	text-decoration: underline;
+		
+	pointer-events: all
+}
+	.footer_tel_link{
+		color: #bfbfbf;
+		text-decoration: underline;
+		
+	pointer-events: all
+	}
+}
