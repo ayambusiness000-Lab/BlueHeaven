@@ -345,7 +345,7 @@ header {
     display: flex;
     -webkit-box-pack: center;
     -ms-flex-pack: center;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
 }
 
@@ -353,9 +353,28 @@ header {
     margin-right: 38px;
 }
 
-.gnav_item:last-child {
-   
+.reserve_here a{
+    color: #0a0a0a;
+    text-decoration: none;
+    background-color: #fff;
+    padding: 1rem 2rem;
+    font-weight: 700;
+    font-size: larger;
+    z-index: 100;
+    border: solid #0a0a0a 2px;
+    position: fixed;
 }
+
+.reserve_here{
+    width: 14rem;   
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    margin-bottom: 4rem;
+}
+
+
+
 
 .gmenu {
     text-decoration: none;

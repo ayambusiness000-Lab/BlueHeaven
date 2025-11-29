@@ -43,3 +43,19 @@ startTimer();
 /*オプションを足す場合はここへ記載*/
 
 });
+
+
+// reserveセクションのアコーディオン実装
+const click_button = document.getElementById('click_reserve');
+const add_to = document.querySelector('.reserve__body');
+
+function addClass(){
+
+           add_to.classList.add('is-open');
+           console.log('clicked')
+
+     
+}
+
+    click_button.addEventListener('click', addClass);
+

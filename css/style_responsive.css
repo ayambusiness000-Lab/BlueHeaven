@@ -278,3 +278,25 @@ width: 100%;
 	pointer-events: all
 	}
 }
+
+
+@media screen and (max-width: 767px){
+
+  .reserve_here{
+    margin: 4rem 0 0;
+    width: 100%;
+    display: block;
+   
+}
+
+.reserve_here a{
+   position: relative;
+
+}
+
+.gnav_item.reserve_here{
+    margin-bottom: 0rem;
+}
+
+
+}
